@@ -1,21 +1,6 @@
-# cakeland-cms
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+# adminUseVueCli
+使用vue-cli 3.0搭建的单页后台框架
+#
+本框架完成了基础的菜单栏搭建，基于jquery和bootstrap
+#
+本框架样式来自http://foxythemes.net/preview/products/beagle/form-elements.html
