@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
 import Menu from './Menu.vue'
 import $ from 'jquery'
 import AppIframe from './assets/app-iframe.js'
@@ -7,7 +8,8 @@ import AppIframe from './assets/app-iframe.js'
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App)
+  render: h => h(App),
+  router
 }).$mount('#app')
 
 new Vue({
@@ -21,4 +23,5 @@ new Vue({
     AppIframe.init();
     $(function(){});
   },
+  router
 }).$mount('#menu');

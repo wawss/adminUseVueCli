@@ -312,15 +312,14 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="documentation.html">
+                  <router-link to="/images">
                     <i class="icon mdi mdi-book"></i>
                     <span>banner系统</span>
-                  </a>
+                  </router-link>
                 </li>
               </ul>
 </template>
 <script>
-
 export default {
   name: "menu"
 };
